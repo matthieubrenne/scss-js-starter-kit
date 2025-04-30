@@ -1,0 +1,87 @@
+#tarteaucitronRoot .tarteaucitronAlertBigTop::before {
+    display: none;
+}
+#tarteaucitronRoot div#tarteaucitronAlertBig {
+    border: 1px solid #D9DBE9;
+    background: #FFF;
+    border-radius: 0px !important;
+    padding: 25px !important;
+    width: 70% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 3% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    row-gap: 20px !important;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06) !important;
+}
+@media (max-width: 768px) {
+    #tarteaucitronRoot div#tarteaucitronAlertBig {
+        width: 90% !important;
+    }
+}
+#tarteaucitronAlertBig #tarteaucitronPrivacyUrl, #tarteaucitronAlertBig #tarteaucitronPrivacyUrlDialog, #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert, #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert strong, #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert .tarteaucitronPartnersList * {
+    color: #6F6C90 !important;
+}
+#tarteaucitronAlertBig #tarteaucitronDisclaimerAlert {
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 30px 0 0 !important;
+    padding: 0 !important;
+    gap: 22px !important;
+}
+@media (max-width: 992px) {
+    #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert {
+        margin: auto !important;
+    }
+}
+#tarteaucitronAlertBig #tarteaucitronDisclaimerAlert::before {
+    content: "";
+    width: 68px;
+    height: 68px;
+    background-image: url('/wp-content/themes/abc-organisation/images/icons/cookies.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+html body #tarteaucitronRoot #tarteaucitronAlertBig div.tarteaucitronPartnersList {
+    display: none !important;
+}
+.tarteaucitronCTAButton {
+    padding: 12px !important;
+    background: linear-gradient(0deg,#005EB7 0%,#005EB7 100%),#005EB7 !important;
+    border-radius: 0px !important;
+    margin-right: 20px !important;
+    display: inline !important;
+}
+#tarteaucitronAllDenied2 {
+    border: 1px solid var(--Blue100, #005EB7) !important;
+    background: linear-gradient(0deg, var(--White, #FFF) 0%, var(--White, #FFF) 100%), var(--White, #FFF) !important;
+    color: #005EB7 !important;
+    font-weight: 700 !important;
+}
+#tarteaucitronCloseAlert {
+    text-decoration: underline !important;
+    color: #005EB7 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 26px !important;
+    text-decoration-style: solid !important;
+    margin-right: 20px !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+#tarteaucitronPrivacyUrl {
+    text-decoration: underline !important;
+    color: #6F6C90 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 26px !important;
+    text-decoration-style: solid !important;
+}
