@@ -8,6 +8,9 @@
 @use "base/typography";
 @use "base/base";
 
+// overrides
+@use "overrides/tarteaucitron-custom";
+
 // layout
 @use "layout/grid";
 @use "layout/header";
@@ -18,7 +21,6 @@
 @use "components/button";
 @use "components/card";
 @use "components/form";
-@use "components/tarteaucitron-custom.scss";
 
 // pages
 @use "pages/home";
